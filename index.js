@@ -36,3 +36,16 @@ const test = (arg) => {
 };
 
 //オブジェクト
+const title2 = {
+  color: "pink",
+  size: "large",
+  purfume: "mint",
+  andBody: () => {
+    console.log("Hello world!");
+  }
+};
+
+document.getElementsByTagName("button")[1].addEventListener("click", ()=> {
+  //命令を書く
+  window.alert("Hello World!");
+});
