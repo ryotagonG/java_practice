@@ -4,8 +4,8 @@ let title = "Hello World!";
 //title = "Hello World2!!";
 
 //定数
-const bigBody = "Hi...Hello World!"
-//bigBody = "Hello world2!!"
+const bigBody = "Hi...Hello World!";
+//bigBody = "Hello world2!!";
 
 //配列
 const tarou = ["サッカー","野球","水泳","英会話"];
@@ -19,8 +19,20 @@ const tarou = ["サッカー","野球","水泳","英会話"];
 // }
 
 //if /else
-if(tarou.length > 3){
-  console.log("いいですね！");
-} else {
-  console.log("だめです！")
-}
+// if(tarou.length > 3){
+//   console.log("いいですね！");
+// } else {
+//   console.log("だめです！");
+// }
+
+//関数
+const test = (arg) => {
+  //ここに実行したい命令を書く
+  if(tarou.length > arg){
+    console.log("いいですね！");
+  } else {
+    console.log("だめです！");
+  }
+};
+
+//オブジェクト
